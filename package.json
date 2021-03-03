@@ -1,0 +1,19 @@
+{
+  "name": "flten-utils",
+  "version": "1.0.0",
+  "description": "javascript常用工具类库",
+  "main": "./dist/flten-utils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "built:watch" : "webpack --watch"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "flten",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

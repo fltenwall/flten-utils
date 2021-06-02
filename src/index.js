@@ -19,3 +19,5 @@ export {bind} from './function/bind';
 export {call} from './function/call';
 export {debounce} from './function/debounce';
 export {throttle} from './function/throttle';
+
+export {repeatStr} from './string/repeatStr'

@@ -21,3 +21,6 @@ export {debounce} from './function/debounce';
 export {throttle} from './function/throttle';
 
 export {repeatStr} from './string/repeatStr'
+
+export {isPlainObject} from './object/isPlainObject'
+export {shallowEqual} from './object/shallowEqual'

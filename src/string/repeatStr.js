@@ -1,4 +1,4 @@
-export function repeatStr(str,num){
+export default function repeatStr(str,num){
     if(num<0){
         return ''
     }

@@ -4,8 +4,8 @@
   "description": "javascript常用工具类库",
   "main": "./dist/flten-utils",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "built:watch" : "webpack --watch"
+    "test": "mocha -r esm test/*/*/*.spec.js",
+    "built:watch": "webpack --watch"
   },
   "keywords": [
     "tools"
@@ -13,6 +13,9 @@
   "author": "flten",
   "license": "ISC",
   "dependencies": {
+    "esm": "^3.2.25",
+    "expect": "^27.0.2",
+    "mocha": "^8.4.0",
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0"
   }

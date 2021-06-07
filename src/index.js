@@ -24,3 +24,5 @@ export {repeatStr} from './string/repeatStr'
 
 export {isPlainObject} from './object/isPlainObject'
 export {shallowEqual} from './object/shallowEqual'
+
+export {sleep} from './promise/sleep'
